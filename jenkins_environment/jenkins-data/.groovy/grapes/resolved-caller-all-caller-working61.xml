@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="caller"
+		module="all-caller"
+		revision="working61"
+		status="integration"
+		publication="20190428150844"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="tw.orange" name="poc" rev="1" force="true" conf="default->default">
+			<artifact name="poc" type="jar" ext="jar"/>
+		</dependency>
+	</dependencies>
+</ivy-module>
